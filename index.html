@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Tera Drone</title>	
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  </head>
+  <body>
+  	<div id="header">
+      <nav class="navbar navbar-default head-nav">
+	      <div class="container-fluid">
+	        <div class="navbar-header logo">
+	          <button type="button" data-target="#menu" data-toggle="collapse" class="navbar-toggle">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <img src="img/mapper_logo.svg">
+	        </div>
+	        <div id="menu" class="collapse navbar-collapse">
+	          <ul class="nav-menu nav navbar-nav navbar-right">
+	            <li><a href="#"><span class="glyphicon glyphicon-cog"></span>&nbsp;Drone Amdin3</a></li>
+		        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>&nbsp;ログアウト</a></li>
+	          </ul>
+	        </div>
+	      </div>  
+      </nav>	
+    </div> <!-- end header -->
+  	<div id="content">
+	  <div class="container-fluid" id="banner">
+	   	<div class="col-sm-3 col-md-offset-1" id="logo1">
+	      <img src="img/C_DASHBOARD_03.png" alt=""> 
+	    </div> 
+	    <div class="col-sm-9 col-lg-5" id="logo2">
+	      <img src="img/tera_maper.png" alt=""">
+	      <p class="text-responsive text-center">Shoot photos and generate DSM data automatically</p> 
+	    </div>  	
+	</div>
+	<div class="container"> <!-- wizad form -->
+      <div class="wizadform col-sm-offset-2 col-md-offset-2 col-xs-offset-2">
+        <form id="wizard-1" novalidate="novalidate">
+                <div id="bootstrap-wizard-1" class="col-sm-12">
+                  <div class="form-bootstrapWizard">
+                    <ul class="bootstrapWizard form-wizard">
+                      <li class="active" data-target="#step1"><a href="#tab1" data-toggle="tab" class="active"> <span class="step">1</span> <span class="title">Select Plan</span></a>
+                      </li>
+                      <li data-target="#step2" class=""><a href="#tab2" data-toggle="tab"> <span class="step">2</span> <span class="title">Confirmation</span></a>
+                      </li>
+                      <li data-target="#step3" class=""><a href="#tab3" data-toggle="tab"> <span class="step">3</span> <span class="title">Complete</span> </a>
+                      </li>
+                     </ul>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+             </form>
+      </div>
+    </div> <!-- end wizad form --> 
+    <div class="container feature1"><!-- start feature1 -->
+        <div class="row">
+          <ul>
+          <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+            <li>
+              <input type="radio" name="feature1" id="check-demo" value="">
+              <label for="check-demo" class="label-check">
+                <div class="check-span">
+                  <span>DEMO</span>
+                </div>
+                <span class="price">0 JPY per month</span>
+                <span>-Up to 200 photos per photoset</span>
+                <span>-Up to 2 photoset per project</span>
+                <span>-Up to 3* projects</span>
+                <span class="span">*2 defeaut project to read only</span>
+              </label>
+            </li>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+            <li class="">
+              <input type="radio" name="feature1" id="check-standard" value="">
+              <label for="check-standard" class="label-check">
+                <div class="check-span">
+                  <span>STANDARD</span>
+                </div>
+                <span class="price">100,000 JPY per month</span>
+                <span>-Up to 1000 photos per photoset</span>
+                <span>-Up to 100 photoset per project</span>
+                <span>-Up to 100 projects</span>
+                <span>&nbsp;</span>
+              </label>
+            </li> 
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+            <li>
+              <input type="radio" name="feature1" id="check-pro" value="">
+              <label for="check-pro" class="label-check">
+                <div class="check-span">
+                  <span>PRO</span>
+                </div>
+                <span class="price">300,000 JPY per month</span>
+                <span>-No limit photos count photoset</span>
+                <span>-No limit photoset count project</span>
+                <span>-No limit projects count</span>
+                <span>&nbsp;</span>
+              </label>
+            </li>
+          </div>
+          </ul>
+        </div>
+      </div>
+    </div><!-- end feature1 -->
+    <div class="container" id="feature2"><!-- start  feature 2 -->
+       <input type="radio" name="tick" id="check-tick" value="">
+        <label for="check-tick" class="label-tick">
+          <div class="check-span">
+            <span>GCP</span>
+             </div>
+             <div class="container text-center">
+		       <span>100,000 JPY per oparation</span>
+		      </div>
+		      <div class="container" id="khung2">
+		        <span>- User can import GCP csv</span>
+		        <span>- Server side processes GCP to adjust geolocation of photo precisely</span>
+		      </div>
+              </label>
+          </div>
+     </div>   
+    </div><!-- end feature 2 --> 
+    <div id="feature3" class="container-fluid">
+        <p class="title">Credit card information</p>
+        <form class="form-horizontal text-left" role="form" >
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 col-xs-offset-1 col-lg-offset-3 col-md-offset-3">
+              <div class="form-group">
+                <label class="col-md-4 col-xs-8">Name </label>
+               <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 center-block">
+                 <input type="text" class="form-control" id="" placeholder="">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 col-xs-offset-1 col-sm-offset-2 col-lg-offset-3 col-md-offset-3">
+              <div class="form-group">
+                <label class="col-sm-4">Card number</label>
+              <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 center-block">
+                  <input type="text" class="form-control" id="" placeholder="">
+              </div>
+             </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 col-xs-offset-1 col-sm-offset-2 col-lg-offset-3 col-md-offset-3">
+              <div class="form-group">
+                <label class="col-sm-4">Expire date</label>
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 center-block">
+                  <input type="text" class="form-control" id="" placeholder="">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 col-xs-offset-1 col-sm-offset-2 col-lg-offset-3 col-md-offset-3">
+              <div class="form-group">
+                <label class="col-sm-4">Security code</label>
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 center-block">
+                  <input type="text" class="form-control" id="" placeholder="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    <div class="container">
+        <div class="feature3"><!--  start feature3 -->
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est</p>	 	
+        </div>
+      </div><!--  end feature3 -->
+  	<div id="feature4"><!-- feature4 -->
+      <div class="container ">
+        <div class="row col-sm-12 col-md-offset-5 col-xs-offset-1">
+          <form>
+            <div class="tickchon">
+              <label><input type="checkbox" value="Agree">&nbsp; Agree with term above </label>
+            </div>
+          </form>
+        </div> 
+      </div> 
+    </div><!--  end feature 4 -->
+    <div class="feature5"> <!-- start feature 5 -->
+      <div class="container">
+    	<div class="col-sm-6">
+    		<button type="submit" value="" class="btn btn-lg btn-block">CANCEL</button>
+    	</div>
+    	<div class="col-sm-6">
+    		<button type="submit" value="" class="btn btn-lg btn-block" >NEXT</button>
+    	</div>		
+      </div>
+    </div> <!-- end feature 5 -->
+  	<div id="footer">
+  		
+  	</div>
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+  </body>
+</html>

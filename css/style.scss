@@ -1,0 +1,313 @@
+
+*{
+	font-size:18px;
+}
+#header{
+  nav.navbar {
+  margin-bottom: 0 !important;
+  text-align: center;
+  font-weight: bold;
+}
+.navbar-default {
+  background: #00aae4 !important;
+  border-radius: 0 !important;
+  margin: 0;
+  color: white;
+}
+.navbar-default .navbar-nav li a {
+  color: white !important;
+}
+.logo img {
+  margin-top: 10px;
+  margin-left: 20px;
+  weight:150px;
+  height: 30px;
+}
+i {
+  margin-right: 10px;
+}
+.login {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #ffffff;
+  float: right;
+  margin-right: 20px;
+}
+}
+#banner {
+  padding: 150px 0;
+  text-align: center;
+  background: #000000 url(../img/C_DASHBOARD_19.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin-bottom: 50px; 
+  height:250px;
+  weight:100%;
+  #logo1{
+  margin-top:-120px;
+  weight:auto;
+  padding-top:20px;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+ #logo2{
+     margin-top: -20px;
+  }
+}
+
+/*Start Wizard*/
+.wizadform{
+  text-align: center;
+}
+.bootstrapWizard {
+  list-style: none;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  padding-top:50px;
+  padding-bottom: 50px; 
+  margin:0 auto;
+  font-size: 21px;
+  margin-bottom: 50px;
+  }
+
+
+.bootstrapWizard a:hover, .bootstrapWizard a:active, .bootstrapWizard a:focus {
+  text-decoration: none; }
+
+.bootstrapWizard li {
+  display: block;
+  float: left;
+  width: 25%;
+  text-align: center;}
+
+.bootstrapWizard li:before {
+  border-top: 3px solid #eff2f7;
+  content: "";
+  display: block;
+  font-size: 21px;
+  overflow: hidden;
+  position: relative;
+  top: 11px;
+  right: 1px;
+  width: 100%;
+  z-index: 1; }
+
+.bootstrapWizard li:first-child:before {
+  left: 50%;
+  max-width: 50%; }
+
+.bootstrapWizard li:last-child:before {
+  max-width: 50%;
+  width: 50%; }
+
+.bootstrapWizard li.complete .step {
+  background: #0aa66e;
+  padding: 1px 6px;
+  border: 3px solid #eff2f7; }
+
+.bootstrapWizard li .step {
+  background: #ffffff;
+  color: #4d4d4d;
+  display: inline;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 12px;
+  padding: 7px 13px;
+  border: 3px solid #eff2f7;
+  border-radius: 50%;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+  transition: all 0.1s linear 0s; }
+
+.bootstrapWizard li.active .step, .bootstrapWizard li.active.complete .step {
+  background: #0091d9;
+  color: #fff;
+  font-weight: 700;
+  padding: 7px 13px;
+  font-size: 21px;
+  border-radius: 50%;
+  border: 3px solid #eff2f7; }
+
+.bootstrapWizard li.complete .title, .bootstrapWizard li.active .title {
+  color: #2B3D53; }
+
+.bootstrapWizard li .title {
+  color: #bfbfbf;
+  display: block;
+  font-size: 9px;
+  line-height: 21px;
+  max-width: 100%;
+  position: relative;
+  table-layout: fixed;
+  text-align: center;
+  top: 20px;
+  word-wrap: break-word;
+  z-index: 104; }
+
+/*End Wizard*/
+.feature1 
+ul {
+  list-style: none;
+  overflow: auto;
+  margin-right: 40px;
+}
+.feature1{
+  ul li {
+  position: relative;
+  border:1px solid #f1f1f1;
+  border-radius:10px;
+  padding:10px;
+  margin-bottom:20px;
+}
+input[type=radio] {
+  display: none;
+}
+
+div.check-span span{
+  width: 100px;
+  margin: 0 auto;
+  font-weight: bold !important;
+}
+div.check-span span {
+  position: relative;
+  display: block;
+}
+input[type=radio]:empty ~ label div.check-span span:before {
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: -30px;
+  content: '';
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgb(222,222,222);
+  border-radius: 100%;
+  background-color: rgb(243,243,243);
+}
+input[type=radio]:checked ~ label div.check-span span:before {
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: -30px;
+  content:'\f00c';
+  font-family: 'FontAwesome';
+  font-size: 13px;
+  border: 2px solid rgb(0,170,228);
+  color: rgb(0,170,228);
+}
+.border-highlight {
+  border: 2px solid rgb(0,170,228);
+}
+.border-default {
+  border: 1px solid rgb(239,242,247);
+}
+span.price {
+  display: block;
+  width: 220px;
+  margin: 0 auto;
+  padding: 18px 0px;
+  font-weight: normal;
+}
+label.label-check span {
+  font-weight: normal;
+  display: block;
+}
+span.span{
+  color: red;
+}
+} 
+#feature2{
+  margin-top: 30px;
+  margin-bottom:50px;
+  
+ input[type=radio] {
+  display: none;
+}
+
+div.check-span span{
+  width: 100px;
+  margin: 0 auto;
+  font-weight: bold !important;
+}
+div.check-span span {
+  position: relative;
+  display: block;
+}
+input[type=radio]:empty ~ label div.check-span span:before {
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: -30px;
+  content: '';
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgb(222,222,222);
+  border-radius: 100%;
+  background-color: rgb(243,243,243);
+}
+input[type=radio]:checked ~ label div.check-span span:before {
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: -30px;
+  content:'\f00c';
+  font-family: 'FontAwesome';
+  font-size: 13px;
+  border: 2px solid rgb(0,170,228);
+  color: rgb(0,170,228);
+}
+.border-highlight {
+  border: 2px solid rgb(0,170,228);
+}
+.border-default {
+  border: 1px solid rgb(239,242,247);
+}
+label.label-tick span {
+  font-weight: normal;
+  display: block;
+}
+ div #khung1, #khung2{
+  border:1px solid #f1f1f1;
+  border-radius:5px;
+}
+  #khung1{
+    text-align:center;  
+}
+  div{
+  border:1px solid #f1f1f1;
+
+}
+}
+#feature3 .title{
+	text-align:center;
+	font-weight:bold;
+}
+.feature3 {
+  border:1px solid #eff2f7;
+  padding: 24px 18px;
+  border-radius: 10px;
+}
+
+#feature4 .tickchon{
+	color: #00aae4;
+	margin: 50px auto;
+
+}
+.feature5{
+  button{
+  color: #000000;
+  border: 1px solid #00aae4;
+  background-color:#ffffff;
+  margin-bottom: 30px;
+} 
+  button:hover{
+  background-color:#00aae4;
+  color: #ffffff;
+} 
+} 
+#footer{
+}
