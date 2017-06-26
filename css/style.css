@@ -253,7 +253,8 @@ ul {
 
 #feature4 .tickchon {
   color: #00aae4;
-  margin: 50px auto; }
+  margin: 50px auto;
+  text-align: center; }
 
 .feature5 button {
   color: #000000;
